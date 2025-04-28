@@ -91,3 +91,23 @@ img{
     box-shadow: 0px 2px 6px rgba(0,0,0,1);;
 
 }
+/*Dise;o responsiv*/
+@media (max-width:768px){
+    /*Cmbiar la orientacion a columas del menu*/
+    nav ul{
+        flex-direction: column;
+    }
+    /*Ajustar los margenes superiores entre */
+    nav ul li{
+        margin: 10px 0;
+    }
+    /*Colocando las tarjetas uan debajo de otra*/
+    .tarjetas{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Cada tarjeta ocupada el 80% */
+    .tarjeta{
+        width: 80%;
+    }
+}
